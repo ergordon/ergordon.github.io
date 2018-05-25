@@ -1468,7 +1468,7 @@ hr {
 /* =================================================================== */
 #projects {
 	background: white;
-	padding-top: 120px;
+	padding-top: 80px;
 }
 .ie #projects .row.items {
 	width: 1140px;
@@ -1642,7 +1642,7 @@ hr {
 
 #about {
 	background: white;
-	padding-top: 120px;
+	padding-top: 80px;
 	padding-bottom: 0;
 }
 #about .about-content {
