@@ -887,6 +887,8 @@ ul#nav li a {
 	-webkit-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
+	font-size: 14px;
+    font-weight: 700;
 }
 ul#nav li a:hover {
 	color: white;
@@ -1138,7 +1140,7 @@ hr {
 	text-align: center;
 }
 .section-head h1 {
-	font: 15px/24px "Roboto", sans-serif;
+	font: 25px "Roboto", sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 2.5px;
 	color: #252525;
