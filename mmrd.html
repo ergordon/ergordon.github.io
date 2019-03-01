@@ -7,178 +7,238 @@
 <head>
 
    <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-   <title>Emilio Gordon</title>
-   <meta name="description" content="">  
-   <meta name="author" content="">
+     ================================================== -->
+     <meta charset="utf-8">
+     <title>Emilio Gordon</title>
+     <meta name="description" content="">  
+     <meta name="author" content="">
 
    <!-- Mobile Specific Metas
-   ================================================== -->
-   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     ================================================== -->
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- CSS
-  ================================================== -->
-  <link rel="stylesheet" href="/css/base.css">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/text.css">
-  <link rel="stylesheet" href="/css/media-queries.css">         
+    ================================================== -->
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/media-queries.css">         
 
    <!-- Script
-   =================================================== -->
-   <script src="/js/modernizr.js"></script>
+     =================================================== -->
+     <script src="/js/modernizr.js"></script>
 
    <!-- Favicons
-   =================================================== -->
-   <link rel="shortcut icon" href="/favicon.png" >
+     =================================================== -->
+     <link rel="shortcut icon" href="/favicon.png" >
 
- </head>
+   </head>
 
- <body>
+   <body>
 
-   <div id="top"></div>
-   <div id="preloader"> 
-    <div id="status">
-     <img src="/images/loader.gif" height="60" width="60" alt="">
-     <div class="loader">Loading...</div>
+     <div id="top"></div>
+     <div id="preloader"> 
+      <div id="status">
+       <img src="/images/loader.gif" height="60" width="60" alt="">
+       <div class="loader">Loading...</div>
+     </div>
    </div>
- </div>
 
    <!-- Header
-   =================================================== -->
-   <header id="main-header">
+     =================================================== -->
+     <header id="main-header">
 
-    <div class="row header-inner">
-    <nav id="nav-wrap">         
+      <div class="row header-inner">
+        <nav id="nav-wrap">         
 
-      <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
-       <span class='menu-text'>Show Menu</span>
-       <span class="menu-icon"></span>
-     </a>
-     <a class="mobile-btn" href="#" title="Hide navigation">
-       <span class='menu-text'>Hide Menu</span>
-       <span class="menu-icon"></span>
-     </a>         
+          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">
+           <span class='menu-text'>Show Menu</span>
+           <span class="menu-icon"></span>
+         </a>
+         <a class="mobile-btn" href="#" title="Hide navigation">
+           <span class='menu-text'>Hide Menu</span>
+           <span class="menu-icon"></span>
+         </a>         
 
-     <ul id="nav" class="nav">
-       <li><a href="/">Home</a></li>
-       <li class="current"><a href="/#projects">Projects</a></li>
-       <li><a href="/#about">About</a></li>
-       <li><a href="/#experience">Experience</a></li>           
-       <li><a href="/#contact">Contact</a></li>
-     </ul> 
+         <ul id="nav" class="nav">
+           <li><a href="/">Home</a></li>
+           <li class="current"><a href="/#projects">Projects</a></li>
+           <li><a href="/#about">About</a></li>
+           <li><a href="/#experience">Experience</a></li>           
+           <li><a href="/#contact">Contact</a></li>
+         </ul> 
 
-   </nav> <!-- /nav-wrap -->        
+       </nav> <!-- /nav-wrap -->        
 
- </div> <!-- /header-inner -->
+     </div> <!-- /header-inner -->
 
-</header>
+   </header>
 
 
 
    <!-- Content
-   ================================================== -->
-   <section id="content">
-    <div class="row projects-content">
-     <div class="entry tab-whole nine columns centered">
-      <header class="entry-header">
-       <h1 class="entry-title">
-       Multi-Mode Microtube-Electrospray Propulsion
-       </h1>  
-       <div class="entry-meta">
-        <ul>
-         <li>August 2017 - Present</li>
-         <span class="meta-sep">•</span>                
-         <li>
-          <a rel="skills tag" title="" href="#">Lead Thermal Researcher</a>,
-          <a rel="skills tag" title="" href="#">EPFacility2 Co-Coordinator</a>,
-          <a rel="skills tag" title="" href="#">LabVIEW Specialist</a>
-        </li>
-      </ul>
-    </div>  
-  </header>
-  <div class="entry-content">
-    <p class="lead" align="center" style="text-align: justify;">
-      The multi-mode microtube-electrospray propulsion system combines a catalytic chemical microtube propulsion system with an electric electrospray propulsion system. The system consists of one propellant tank, one set of feed lines/valves, one thruster that can be operated as high-thrust low-specific impulse chemical (180 sec Isp) or low-thrust high-specific impulse electric (>800 sec Isp) propulsion. It significantly expands the design space for satellites, while still fitting within the same mass/volume/power requirements. Perhaps most importantly it makes spacecraft flexible and adjustable, enabling the mission to be changed in real-time and enabling spacecraft to be quickly launched without a predetermined mission. My work with the MultiMode research team has focused on thermal design but branched to several other fields as well.<br>
-    </p>
-  </div>
-  <section id="role">
-    <h1>My Tasks</h1>
-    <hr style="margin: 0;">
-    <h6 style="margin: 18px 0 0px;">Lead Thermal Investigator</h6>
-    <p>
-      The goal of the thermal modeling is to explore the effects of geometry, material properties,and thermal interface resistance  on  the temporal  evolution  and equilibrium distribution  of  the temperature  of  the  prototypical  MMMP thruster. It is desirable to keep the manifold cool (<∼100◦C) to prevent propellant decomposition, while the micro-channel array is hot (∼150−400◦C) for propellant ignition and sustained combustion. The model presented in the upcoming conference paper explores how the manifold parameters will affect its equilibrium temperature. 
-    <br>    <br>
-    It was important to start with an analytical thermal analysis for future comparisons with simulation data. The system was created and computed for to show trends at varying thermal contact resistivity. After which, ANSYS Workbench was used to verify the analytical data. Once compared and verified, the simulations were then tasked with more intensive parameters such as varying material, manifold sizes, and contact methods. Months of data was then compiled to find an optimal design for the assembly that meet the goal.
-    <br>    <br>
-    During this time, experimental test were also begin conducted. Test were conducted in the <a href="http://eplab.ae.illinois.edu/facilities.html">belljar vacuum facility</a>. Temperature readings were collected using thermocouples attached to key points on the assembly. This data was collected over a span of 8 hours, or until steady state. The assembly was tested at varying array temperatures and then compared with simulation data to verify a selected thermal contact resistivity (our only unknown). To collect data, I developed a LabVIEW acquisition software for the oscilloscope to collect data twice every minute. This allowed us to spot any irregularities during heating and verify a steady state has been reached.
-    </p>
-    <br>
-<h6 style="margin: 18px 0 0px;">EPFacility2 Co-Coordinator</h6>
-<p>
-I managed the construction of the labs new vacuum chamber facility to be used for Hall thruster experiments. This facility is 1.2-m-diameter and 2.1-m-long evacuated to a base pressure of 10-6 Torr by a PHPK TM1200 cryopump. It has a thrust stand based on the NASA GRC null-type inverted pendulum design. I organized, purchased, assembled and manage all the instruments and components necessary for the vacuum to operate. Equipped with 12 different ports, I focused on understanding what components were needed for each port and their specific need to the future research to be conducted. I gained an expertise from vacuum technologies from cryopanels, coldheads, turbo-pumps and rough pumps to vacuum standards like flange sizing and operation practices. 
+     ================================================== -->
+     <section id="content">
+      <div class="row projects-content">
+       <div class="entry tab-whole nine columns centered">
+        <header class="entry-header">
+         <h1 class="entry-title">
+           Multi-Mode Microtube-Electrospray Propulsion
+         </h1>  
+         <div class="entry-meta">
+          <ul>
+           <li>August 2017 - Present</li>
+           <span class="meta-sep">•</span>                
+           <li>
+            <a rel="skills tag" title="" href="#">Lead Thermal Researcher</a>,
+            <a rel="skills tag" title="" href="#">Vacuum Technician</a>,
+            <a rel="skills tag" title="" href="#">COCO</a>
+          </li>
+        </ul>
+      </div>  
+    </header>
+    <div class="entry-content">
+      <p class="lead" align="center" style="text-align: justify;">
+        The multi-mode microtube-electrospray propulsion system combines a catalytic chemical microtube propulsion system with an electric electrospray propulsion system. The system consists of one propellant tank, one set of feed lines/valves, one thruster that can be operated as high-thrust low-specific impulse chemical (180 sec Isp) or low-thrust high-specific impulse electric (>800 sec Isp) propulsion. It significantly expands the design space for satellites, while still fitting within the same mass/volume/power requirements. Perhaps most importantly it makes spacecraft flexible and adjustable, enabling the mission to be changed in real-time and enabling spacecraft to be quickly launched without a predetermined mission. My work with the MultiMode research team has focused on thermal design but branched to several other fields as well. All work was supervised by Professor Joshua Rovey.<br>
+      </p>
+    </div>
+    <section id="role">
+      <h1>My Tasks</h1>
+      <hr style="margin: 0;">
+      <h6 style="margin: 18px 0 0px;">Lead Thermal Investigator</h6>
+      <p>
+        The goal of the thermal modeling is to explore the effects of geometry, material properties,and thermal interface resistance  on  the temporal  evolution  and equilibrium distribution  of  the temperature  of  the  prototypical  MMMP thruster. It is desirable to keep the manifold cool (<∼100◦C) to prevent propellant decomposition, while the micro-channel array is hot (∼150−200◦C) for propellant ignition and sustained combustion. The model presented in the upcoming conference paper explores how the manifold parameters will affect its equilibrium temperature. 
+      </p>
+
+      <div class="row">
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -20px">
+            <div class="bgrid first" style="padding: 5% 0px 5% 0px">
+              <img src="/projects/mmrd/images/ThermalTest.png" style="width:100%">
+            </div> <!-- /bgrid -->
+            <div class="bgrid" style="padding: 0 20px 0 20px">               
+              <p style="text-align: justify;">It was important to start with an analytical thermal analysis for comparisons with simulation data. The system was created and computed to show trends at varying thermal contact resistivity. After which, ANSYS Workbench was used to verify the analytical data. Once compared and verified, the simulations were then tasked with more intensive parameters such as varying materials, manifold sizes, and contact methods. Months of data was then compiled to find an optimal design for the assembly that meet the goal.
+              </p> 
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
+
+      <div class="row" >
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -45px">
+            <div class="bgrid first" style="padding: -2px 20px 0 20px">
+              <p style="text-align: justify;">
+                During this time, experimental test were conducted. Test were performed in the <a href="http://eplab.ae.illinois.edu/facilities.html">belljar vacuum facility</a>. Temperature readings were collected using thermocouples attached to key points on the assembly. This data was collected over a span of 8 hours, or until steady state. The assembly was tested at varying array temperatures and compared with simulation data to determine the thermal contact resistivity. To collect data, LabVIEW was integrated with the oscilloscope to collect data twice every minute.
+              </p> 
+            </div> <!-- /bgrid -->
+            <div class="bgrid" style="padding: 2% 0px 2% 0px">               
+              <img src="/projects/mmrd/images/ThermalExp.jpg" style="width:100%">
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
+
+
+      <br>
+      <h6 style="margin: 18px 0 0px;">Electric Propulsion Facility - Vacuum Organizer</h6>
+      <div class="row">
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -20px">
+            <div class="bgrid first" style="padding: 5% 0px 5% 0px">
+              <img src="/projects/mmrd/images/VacuumChamberConnections.png" style="width:100%">
+            </div> <!-- /bgrid -->
+            <div class="bgrid" style="padding: 0 20px 0 20px">               
+              <p style="text-align: justify;">In the summer of 2018, I managed the construction of a new vacuum chamber facility to be used for Hall thruster experiments. This facility is 1.2-m-diameter and 2.1-m-long evacuated to a base pressure of 10-6 Torr. I organized, purchased, and managed the instruments and components necessary for the vacuum to operate. Equipped with 12 different ports, I focused on understanding what components were needed for each port and their specific need to the future research to be conducted.
+              </p> 
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
+      <div class="row">
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -20px">
+            <div class="bgrid first" style="padding: 2% 20px 0 20px">
+              <p style="text-align: justify;">
+                Prior to taking this task, I had no knowledge of the complexities and challenges in the field of vacuum systems but gained it all in my five months it took to complete it. I gained an expertise of vacuum technologies from cryopanels, coldheads, turbo-pumps and rough pumps to vacuum standards like flange sizing and operation practices. 
+              </p> 
+            </div> <!-- /bgrid -->
+            <div class="bgrid">               
+              <img src="/projects/mmrd/images/VacuumChamber.jpg" style="width:100%">
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
 <br><br>
-In addition to the technical side, I learned how to communicate with potential clients; how to handle malfunctioning parts; and constructing a comprehensive bill of materials with an assembled cad of the complex system to verify all parts were ordered and necessary for operation.
-<br><br>
-Prior to taking this task, I had no knowledge of the complexities and challenges in the field of vacuum systems but gained it all in my five months it took to start and complete it. Work is being put into creating a LabVIEW control panel to operate all instruments through a single automated interface.
-<br>
-</p>
-<br>
-<h6 style="margin: 18px 0 0px;">COCO</h6>
-<p>
-Multi-mode has been proven as a concept for both electric and chemical modes for a single thruster. A single channel is roughly 10 micrometers in diameter and 6 centimeters long. To put things into perspective, the typical width of a human hair is between 60 and 80 microns. In order to achieve this task at a larger scale, a thruster array containing thousands of micro-channels is needed. Throughout its development, the array is exposed to a number of factors that affect the integrity of the channels. The channels are etched into a stainless steel block, coated with thin layer of platinum and finally milled to create a nozzle. 
-<br><br>
-The challenge: with an incredibly small-scale and complex manufacturing process, it is paramount that the surface of the array block is fully understood during each phase. Aspects of each channel are categorized such as the channels absolute location, size, shape, blockage and alignment with other channels. The system must be reliable and repeatable to allow for a channel-by-channel comparison of the array surface at different stages of the manufacturing process.
-<br><br>
-With this challenge in mind, I developed the “CNC Optical Channel Observer”, commonly referred to as COCO. The system comprises of two main components, the hardware and the software.
-<br><br>
-For the hardware: COCO uses a CNC machine with a microscopic camera mounted on the Z-axis and an LED array resting on the CNC platform. The main strategy here was to place the thruster array on the LED’s and the CNC would traverse, taking pictures of the thruster array along the way. The light from the array would emit through the channels and by observing the channel brightness the channels blockage can be observed.  When building the CNC, I gained a lot of experience with how CNC’s operated which gave me further insight later on when troubleshooting. Since the CNC and Camera were not compatible, I designed and 3D printed mount to hold the camera. The mount was numerically stress tested to ensure it would not buckle under the weight of the camera while keeping the infill low enough to not add additional weight to the CNC axis. The final component for hardware is an LED bed. This included a 3D printed mount to house the electronics, ensure thruster array alignment and markers for location estimation. The LED circuit was designed by me and incorporates 200 LED bulbs in a 8x4cm area.
-<br><br>
-Developing the software immensely developed by understanding of the engineering process, through much headache of my advisor. The first challenge was getting all of different components to communicate. I tackled this by writing code for individual features and the focused on integrating them once proven functional. For example, I had created functions for simply taking a picture, moving the CNC and creating a path for scanning the thruster that were then compiled to create one main script. Once I had this system working came the real challenging part. For months, I designed and programmed (but in reality, mostly debugging) on software to scan every image and extract all of the aforementioned channel data. I decided to program everything in python and so learned a lot about computer image processing. The strategy I ultimately designed was as follows.
-When scanning, every image is named according to the x and y location of the CNC at the time of taking the image. 
-During PostProcessing, each image is scanned and the channels are identified.
-Each BLAH BLAH BLAH
-<br><br>
-I’ve felt myself grow immensely as an engineer from the undertaking of this project. Aside from the vast technical knowledge, I’ve gained the experience of developing an entirely new and innovative system and the challenges that come with it. The most important in my opinion is data validation and presentation. Since I was creating something new, it was crucial to validate any results with quantifiable figures. BLAH BLAH BLAH
-<br><br>
-</p>
-  </section>
-  
-<section id="Publications">
- <h1>Publications</h1>
- <hr style="margin: 0px 0px 10px;">
- Coming Soon!
-</section>
+      <h6 style="margin: 18px 0 0px;">CNC Optical Channel Observer (COCO)</h6>
+
+<div class="row">
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -20px">
+            <div class="bgrid first" style="padding: 5% 0px 5% 0px">
+              <img src="/projects/mmrd/images/COCO.jpg" style="width:100%">
+            </div> <!-- /bgrid -->
+            <div class="bgrid" style="padding: 0 20px 0 20px">               
+              <p style="text-align: justify;">With multimode propulsion, a single thruster channel is roughly 10 micrometers in diameter and 6 centimeters long. To put it into perspective, the typical width of a human hair is between 60 and 80 microns. In order to bring multimode technology to a more applicable scale, a thruster array containing thousands of microchannels is needed. During the manufacturing process, the channels are etched into a stainless steel block, coated with a thin layer of platinum, and finally milled to create a nozzle. Throughout its development, the array is exposed to a number of factors that affect the integrity of the channels.
+              </p> 
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
+
+      <div class="row" >
+        <div class="twelve columns">
+          <div class="service-list bgrid-half" style="margin-top: -45px">
+            <div class="bgrid first" style="padding: -2px 20px 0 20px">
+              <p style="text-align: justify;">
+                With an incredibly small system and complex manufacturing process, it is paramount that the surface of the array block be fully understood during each phase. Physical traits such as a channel’s absolute location, size, shape, blockage, and alignment with other channels must be understood. The system must be reliable and repeatable to allow for a channel by channel comparison of the thruster surface at different stages in the manufacturing process. COCO scans the array taking picture at one millimeter steps. These images are stitched to create a single panoramic image. Afterwhich, a neural network trained to detect channels, records data on the channel's location, brightness and shape. 
+                <br><br>
+                To learn more about COCO, visit the <a href="https://github.com/ergordon/COCO/wiki">GitHub Wiki</a>.
+              </p> 
+            </div> <!-- /bgrid -->
+            <div class="bgrid" style="padding: 2% 0px 2% 0px">               
+              <img src="/projects/mmrd/images/ArraySlice.jpg" style="width:100%">
+            </div> <!-- /bgrid -->
+          </div> <!-- /service-list -->
+        </div> <!-- /twelve -->
+      </div> <!-- /row -->
+    </section>
+
+    <section id="Publications">
+     <h1>Publications</h1>
+     <hr style="margin: 0px 0px 10px;">
+     Coming Soon!
+   </section>
    
    <!-- Footer
-   ================================================== -->
-   <footer>
+     ================================================== -->
+     <footer>
 
-    <div class="row">       
-     <p class="copyright" align="center">&copy; Copyright 2019 Emilio Gordon.</p>        
+      <div class="row">       
+       <p class="copyright" align="center">&copy; Copyright 2019 Emilio Gordon.</p>        
 
-     <div id="go-top">
-      <a class="smoothscroll" title="Back to Top" href="#content"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
-    </div>
+       <div id="go-top">
+        <a class="smoothscroll" title="Back to Top" href="#content"><span>Top</span><i class="fa fa-long-arrow-up"></i></a>
+      </div>
 
-  </div> <!-- /row -->
+    </div> <!-- /row -->
 
-</footer> <!-- /footer -->
+  </footer> <!-- /footer -->
 
 
    <!-- Java Script
-   ================================================== -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="/js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>   
-   <script src="/js/jquery.flexslider.js"></script>
-   <script src="/js/jquery.fittext.js"></script>
-   <script src="/js/backstretch.js"></script> 
-   <script src="/js/waypoints.js"></script>  
-   <script src="/js/main.js"></script>
-   <script src="/js/modernizr.js"></script>
-   <script src="/js/bootstrap.js"></script> 
+     ================================================== -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+     <script>window.jQuery || document.write('<script src="/js/jquery-1.10.2.min.js"><\/script>')</script>
+     <script type="text/javascript" src="/js/jquery-migrate-1.2.1.min.js"></script>   
+     <script src="/js/jquery.flexslider.js"></script>
+     <script src="/js/jquery.fittext.js"></script>
+     <script src="/js/backstretch.js"></script> 
+     <script src="/js/waypoints.js"></script>  
+     <script src="/js/main.js"></script>
+     <script src="/js/modernizr.js"></script>
+     <script src="/js/bootstrap.js"></script> 
 
- </body>
+   </body>
 
- </html>
+   </html>
