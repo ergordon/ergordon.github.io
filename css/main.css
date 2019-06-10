@@ -828,11 +828,11 @@ header .logo a {
 	height: 12px;
 	background-repeat: no-repeat;
 	background-position: 0 0;
-	background-image: url("../images/logo.png");
+	background-image: url("..images/logo.png");
 }
 @media (-webkit-min-device-pixel-ratio:2), (min-resolution:192dpi) {
 	header .logo a {
-		background-image: url("../images/logo-@2x.png");
+		background-image: url("..images/logo-@2x.png");
 		-webkit-background-size: 126px 12px;
 		-moz-background-size: 126px 12px;
 		background-size: 126px 12px;
@@ -1160,7 +1160,7 @@ hr {
 /* page title
 ---------------------------------------------------------------------- */
 #page-title {
-	background: #293E6A url(../images/title.jpg) no-repeat center center fixed;
+	background: #293E6A url(..images/title.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1281,7 +1281,7 @@ hr {
 /* k. home Section
 /* =================================================================== */
 #home {
-	background: #3b5998 url(/images/6.jpg) no-repeat center center fixed;
+	background: #3b5998 url(../images/6.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
@@ -1741,7 +1741,7 @@ hr {
 /*  o. Journal Section
 /* =================================================================== */
 #journal {
-	background: #a43b0a url(../images/blog-bg.jpg) no-repeat bottom center fixed;
+	background: #a43b0a url(..images/blog-bg.jpg) no-repeat bottom center fixed;
 	-webkit-background-size: cover !important;
 	-moz-background-size: cover !important;
 	background-size: cover !important;
